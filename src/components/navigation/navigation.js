@@ -6,15 +6,22 @@ import styles from './navigation.module.css'
 export const Navigation = ()=>{
     return (
         <header className={styles.navWrapper}>
-            <nav className='container'>
+            <div className={styles.navLogoContainer}>
                 <Link href='/' className={styles.navLogo}>
                     <Image
                         src={logo}
                         alt='Instituto Nacional de Pediatría'
                         width={'70'}
-                    />
+                        /> 
                 </Link>
+            </div>
+            <nav className='container'>
                 <ul className={styles.navList}>
+                    <li>
+                        <Link href={'/'}>
+                            Inicio
+                        </Link>
+                    </li>
                     <li>
                         <Link href={'/'}>
                             Galería
@@ -22,7 +29,12 @@ export const Navigation = ()=>{
                     </li>
                     <li>
                         <Link href={'/'}>
-                            Galería
+                            Videoconferencias
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href={'/'}>
+                            Contacto
                         </Link>
                     </li>
                 </ul>
