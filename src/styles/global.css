@@ -3,6 +3,10 @@
     margin:0;
     padding:0;
 }
+body{
+    background: var(--color-white-primary);
+    color:var(--color-black-primary);
+}
 /*Container*/
 .container{
     margin: 0 auto;
@@ -10,3 +14,10 @@
     max-width:1200px;
 }
 /*UI colors*/
+:root{
+    --color-red-primary:#f03131;
+    --color-blue-primary:#0558ae;
+    --color-blue-secondary:#0cacec;
+    --color-black-primary:#140c14;
+    --color-white-primary:#f7f7f7;
+}
