@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*Container*/
+.container{
+    margin: 0 auto;
+    width:70%;
+    max-width:1200px;
+}
+/*UI colors*/
