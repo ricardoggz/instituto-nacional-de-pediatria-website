@@ -21,3 +21,9 @@ body{
     --color-black-primary:#140c14;
     --color-white-primary:#f7f7f7;
 }
+/*Responsive*/
+@media (min-width:240px) and (max-width:900px){
+    .container{
+        width:90%;
+    }
+}
