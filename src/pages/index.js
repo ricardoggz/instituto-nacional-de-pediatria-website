@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Navigation } from '../components'
+import { Navigation, Jumbotron } from '../components'
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       </Head>
       <>
         <Navigation />
+        <Jumbotron />
       </>
     </>
   )
